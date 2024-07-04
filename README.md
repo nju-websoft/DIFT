@@ -13,6 +13,9 @@ Finetuning Generative Large Language Models with Discrimination Instructions for
     sentencepiece==0.1.99
     wandb==0.15.3
 
+## Dataset
+create a folder `dataset`, download [dataset.zip](https://drive.google.com/file/d/1gWX97jtILkf960f_zBbkLoIRpO54Cv7E/view?usp=drive_link), unzip it into `dataset`.
+
 ## Finetuning
 ### FB15K237
     bash script/train_fb.sh {TransE|SimKGC|CoLE}
