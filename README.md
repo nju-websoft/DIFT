@@ -26,5 +26,6 @@ create a folder `dataset`, download [dataset.zip](https://drive.google.com/file/
 ## Inference
     bash script/eval.sh {FB15K237|WN18RR} {TransE|SimKGC|CoLE} {checkpoint_dir}
 
-checkpoint_dir is the path of the folder to save the PEFT model, like "./output/FB15K237/2024xxxx-xxxxxx/checkpoint-xxxx/adapter_model"
+`checkpoint_dir` is the path of the folder to save the PEFT model, like "./output/FB15K237/2024xxxx-xxxxxx/checkpoint-xxxx/adapter_model"
+
 [checkpoints](https://drive.google.com/file/d/1YH6PUUl81i9gHpboK9SQAHw3zVOuVgzI/view?usp=drive_link) of the reported results are also provided.
