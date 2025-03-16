@@ -36,7 +36,7 @@ def train():
     args = argparse.Namespace(**vars(model_args), **vars(data_args), **vars(training_args))
     assert args.model_class in ['LlamaForCausalLM', 'KGELlama']
     if args.kge_model == 'TransE':
-        args.embedding_dim = 100
+        args.embedding_dim = 250
     
     set_seed(args.seed)
     os.makedirs(args.output_dir)
