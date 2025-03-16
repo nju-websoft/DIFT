@@ -128,7 +128,7 @@ if __name__ == '__main__':
     args = argparse.Namespace(**vars(model_args), **vars(data_args), **vars(eval_args))
     assert args.model_class in ['LlamaForCausalLM', 'KGELlama']
     if args.kge_model == 'TransE':
-        args.embedding_dim = 100
+        args.embedding_dim = 250
 
     # checkpoint_dir: .../checkpoint-xxxx/adapter_model
     logger = get_logger(os.path.dirname(args.checkpoint_dir))
