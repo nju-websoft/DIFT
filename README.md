@@ -14,7 +14,7 @@ Finetuning Generative Large Language Models with Discrimination Instructions for
     wandb==0.15.3
 
 ## Dataset
-download and extract the files from [here](https://drive.google.com/file/d/1gWX97jtILkf960f_zBbkLoIRpO54Cv7E/view?usp=drive_link), move the files to the corresponding folders.
+download from [here](https://drive.google.com/file/d/1gWX97jtILkf960f_zBbkLoIRpO54Cv7E/view?usp=drive_link), extract the files, and move them to the corresponding folders.
 
 ## Finetuning
 ### FB15K237
